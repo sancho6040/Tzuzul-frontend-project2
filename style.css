@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  /*height:100vh;*/
+  background-color:#fff;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: #901EFA;
+  /*border: solid 2px #5A00AE;*/
+  border-radius: 10px;
+  color: white;
+  padding: 5px 30px;
+}
+
+/*----------------------------header-----------------------------*/
+header{
+  position:relative;
+  top:0;
+  width:100%;
+  padding:30px 100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  position:relative;
+  color:#111111;
+  font-size:30px;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-weight:800;
+  letter-spacing:1px;
+  
+}
+
+header .nav-bar a{
+  color:#111;
+  flex-direction:none;
+  font-weigth:500;
+  letter-spacing:1px;
+  cursor:pointer;
+  
+}
+
+/*---------------------------------main--------------------------*/
+
+main{
+  margin: 0 80px;
+}
+
+
+/* no hay ningun section en el html xd
+section{
+  position:relative;
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  
+}*/
+
+.container{
+  height:85vh;
+  width: 100%;
+  background:linear-gradient(to bottom right,#6F1FBA, #239081,#F5A12B);
+  box-shadow:6px 12px 20px;
+  display:flex;
+  border-radius:20px;
+  flex-basis:80%;
+ 
+}
+.content-image {
+  flex-basis: 60%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-image .img{
+  height:230px;
+  width:185px;
+  box-shadow: 6px 12px 20px rgba(0,0,0,0.5);
+  
+}
+
+.content-text{
+  flex-basis: 40%;
+  margin: auto 0px;
+  text-align: center;
+  
+}
+
+.content-text h1 {
+  letter-spacing: 1.5px;
+  line-height: 50px;
+  color:white;
+}
+.content-text p{
+  letter-spacing: 1.5px;
+  line-height: 30px;
+  color:white;
+  
+}
+.content-text .buttom{
+  font-size:12 px;
+  color:4660DE;
+  cursor:pointer;
+  margin-top: 25px;
+  display:inline-block;
+}
+
+
+/*-----------------Dashboard section-------------------*/
+
+.dashboards-section{
+  margin: 40px 0;
+  display: flex;
+  gap: 30px;
+  height: 1000px;
+}
+
+.dashboard-container-2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: 100%;
+}
+
+.dashboard{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  
+  border-radius: 20px;
+}
+
+.dashboard-text{
+  margin: 10px 30px 10px 30px;
+}
+
+.bg-black-opacity{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.d-1{
+  background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.d-2{
+  background-image: url("https://images.unsplash.com/photo-1504608245011-62d9758c1bb9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.d-3{
+  background-image: url("https://images.unsplash.com/photo-1501163109389-abf37ca1276a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+
+/*--App section--------*/
+
+.app-section{
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+article{
+  width: 30%;
+  text-align: center;
+  margin-bottom: 20px;
+  
+  
+  
+}
+
+article img{
+  width:80%;
+  display:block;
+  margin: 0 auto;
+}
