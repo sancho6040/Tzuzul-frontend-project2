@@ -24,6 +24,10 @@ button{
   padding: 5px 30px;
 }
 
+a{
+  text-decoration: none;
+}
+
 /*----------------------------header-----------------------------*/
 header{
   position:relative;
@@ -208,4 +212,70 @@ article img{
   width:80%;
   display:block;
   margin: 0 auto;
+}
+
+/*----------------------extra section--------------------------*/
+.content-2{
+  /*display: flex;*/
+  width: auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 130px;
+}
+
+.button-2{
+  background-color: #207ef8;
+  font-size: 1.5rem;
+}
+
+.button-2:hover{
+  background-color: #7718ec;
+  color: #FFAE02;
+  transition: 0.5s;
+  
+}
+
+.content-text{
+  text-align: left;
+}
+
+.content-text h1, .content-text p{
+  padding: 20px 0;
+}
+
+/*------------------------footer-------------------------------*/
+footer{
+  background-color: #5E4460;
+  color: white;
+  padding: 200px 80px 20px 80px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer_info{
+  width: 50%;
+}
+
+.social_media a{
+  padding: 10px;
+  color: #FFAE02;
+}
+
+.footer_links{
+  
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.footer_links a{
+  color: white;
+}
+
+.footer_links a:hover{
+  color: #FFAE02;
 }
